@@ -1,0 +1,25 @@
+{
+  "name": "user/repo",
+  "version": "0.0.0",
+  "funding_url": "https://github.com/user/repo/contributors",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "firmware/None.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware/None.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
